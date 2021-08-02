@@ -1,0 +1,104 @@
+html, body, #root{
+    height: 100%;
+    background-image: url('http://getwallpapers.com/wallpaper/full/a/5/d/544750.jpg') !important ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.photoavt{
+    width: 120px;
+    height: 120px;
+    margin-top: 160px;
+    margin-bottom: 30px;
+}
+#card-login{
+    background-color: rgba(0,0,0,0.5) !important;
+    color: white;
+    border-radius: 5%;
+    width: auto;
+}
+#cardheader-login{     
+    border-radius: 5%;
+    color: aliceblue !important ;
+    background-color: rgba(0,0,0,0.5) !important  ; 
+}
+
+.input-group input[type=text]{
+    padding-left: 50px ;  
+    border: 2px solid #aaa;
+    border-radius: 5px;
+    outline: none; 
+    box-sizing: border-box;
+    transition: .3s;
+}
+.input-group input[type=text]:focus{
+    border-color: #FFD700;
+    box-shadow: 0 0 10px 0 #FFD700;
+}
+.input-group{
+    position: relative;
+}
+.input-group i{
+    position: absolute;
+    left: 14px;
+    top: 4px;
+    padding: 4px 10px;
+    color: #aaa; 
+    font-size: 1.1em;
+    transition: .3s;
+}
+.input-group input[type=text]:focus + i{
+    color:#FFD700;
+}
+.input-group.input-groupBg i{
+    background-color: #FF8C00;
+    color: #fff;
+    top: 0px;
+    padding: 10px 14px ;
+    border-radius: 5px 0 0 5px;
+}
+.input-group.input-groupBg input[type=text]:focus + i{
+    color:fff;
+    background-color: #FFD700;
+}
+.remember{
+    color: white;
+}  
+.remember input
+{
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+#buttonlogin{
+    height: 49px;
+    font-size: 20px;
+    background-color: #FF8C00;
+    font-style: italic;
+    border-radius: 7px;
+    padding: 9px 27px;
+}
+#buttonregister{
+    background-color: #FF8C00;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 28px;
+    border-radius: 4px;
+    padding: 11px 51px;
+}
+#hedsign{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 45px;
+}
+.card-footer{
+    font-size: large;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+
+
+
+
+
